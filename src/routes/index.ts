@@ -12,7 +12,7 @@ router.get('/gatos', PageController.cats);
 router.get('/peixes', PageController.fishes);
 
 
-router.get('/busca', SearchController.search);
+router.get('/search', SearchController.search);
 
 
 

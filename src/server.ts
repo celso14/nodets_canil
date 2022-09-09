@@ -20,7 +20,7 @@ server.use(mainRoutes);
 
 
 server.use((request, response) => {
-    response.send('Página não encontrada')
+    response.render('pages/page404');
 });
 
 
